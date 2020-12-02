@@ -9,7 +9,10 @@ div{
 }
 
 .container{
-     padding: 20px;
+    padding: 20px;
+}
+
+.dis-block{
      display: block;
 }
 
