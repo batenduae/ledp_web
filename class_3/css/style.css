@@ -7,11 +7,15 @@ div{
     margin-top: 10px;
     margin-left: 10px;
 }
+
 .container{
      padding: 20px;
-     display: flex;
+     display: block;
 }
 
+.basic-shape{
+    display: flex;
+}
 .square{
     width: 100px;
     height: 100px;
