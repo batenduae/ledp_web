@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container{
+     padding: 20px;
+     display: flex;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+}
+
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background: aquamarine;
+}
+
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    border-radius: 50%;
+}
+
+
+.ellipse{
+    width: 200px;
+    height: 100px;
+    background: aquamarine;
+    border-radius: 50%;
+    border-radius: 100px/50px;
+}
+
+
+.border-mechanism{
+    width: 0;
+    height: 0;
+    background: aquamarine;
+    border-top: 50px solid green;
+    border-bottom: 300px solid red;
+    border-left: 200px solid blue;
+    border-right: 100px solid pink;
+}
+
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 173px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-top: 173px solid red;
+    border-bottom: 0px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 173px solid red;
+}
+
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 173px solid red;
+    border-right: 0px solid transparent;
+}

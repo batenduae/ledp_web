@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+p{
+    font-size: 20PX;
+    font-weight: bold;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.icon-style-1 ul{
+    list-style: none;
+}
+
+.icon-style-1 ul li{
+    display: inline-block;
+    /* display: flex; */
+}
+
+.icon-style-1 ul li a{
+    background-color: tomato;
+    /* background: turquoise; */
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 40px;
+    display: block;
+    border-radius: 10px 40px;
+}
+
+.icon-style-1 ul li a:hover{
+    background: lightgreen;
+    color:blue;
+    border-radius: 20px 10px;
+    font-size: 40px;
+    transition: .5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.icon-style-2 ul{
+    list-style: none;
+}
+
+.icon-style-2 ul li{
+    display: inline-block;
+    /* display: flex; */
+}
+
+.icon-style-2 ul li a{
+    background-color: lightseagreen;
+    /* background: turquoise; */
+    color: #111;
+    padding: 20px 30px;
+    font-size: 40px;
+    display: block;
+    border-radius: 10px 20px;
+}
+
+.icon-style-2 ul li a:hover{
+    background:pink;
+    color: purple;
+    border-radius: 40px 10px;
+    transition: .5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.icon-div{
+    background: snow;
+    border: maroon solid 5px;
+    margin: 60px;
+    border-radius: 50px;
+    border-style: double;
+    border-width: 10px;
+}
