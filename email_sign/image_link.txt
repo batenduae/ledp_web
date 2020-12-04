@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/batenduae/image/main/face.png
+https://raw.githubusercontent.com/batenduae/image/main/mail.png
+https://raw.githubusercontent.com/batenduae/image/main/insta.png
+https://raw.githubusercontent.com/batenduae/image/main/phone.png
+https://raw.githubusercontent.com/batenduae/image/main/card.png
+https://raw.githubusercontent.com/batenduae/image/main/baten.png
