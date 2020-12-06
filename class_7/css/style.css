@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.form{
+    z-index: 1;
+    width: 395px;
+    height: 350px;
+    background-image: url(../img/img2.jpg);
+    background-size: 150%;
+    background-position: center;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 4px 5px 23px 0px black;
+}
+.form:hover{
+    width: 400px;
+    height: 355px;
+    transition: .5s;
+}
+input{
+    padding: 15px;
+    background-color: #1876f280;
+}
+::placeholder{
+    color: #014670;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.user{
+    width: 100%;
+    height: 50px;
+    margin:auto;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    margin-bottom:10px;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    margin:auto;
+    background-color: #1876f280;
+    border-radius: 5px;
+    color: #d3fffe;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.likha{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.likha a{
+    text-decoration: none;
+    color: #f98b60;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+hr{
+    border: 1px solid #dddfe2;
+    margin-bottom: 30px;
+}
+
+.btn2{
+    width: 200px;
+    height: 50px;
+    background-color: #eb746070;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto;
+    padding: 15px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.btn2:hover{
+    background-color: #752d3270;
+}
+
