@@ -12,33 +12,42 @@
 <body>
     
     <!-- responsive navbar with dropdown, disable and form -->
-    <nav class="navbar bg-info navbar-dark navbar-expand-md">
-        <a href="" class="navbar-brand">Abdul Baten</a>
-
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <a href="#" class="navbar-brand">Abdul Baten</a>
+        <!-- button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#div1">
-            <span class="data-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-
+        <!-- collapsible div -->
         <div class="collapse navbar-collapse" id="div1">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link">History</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+
+                <!-- dropdown-item -->
                 <li class="nav-item dropdown">
-                    <a href="" class="nav-link dropdown-toggle" id="#drop1" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        dropdown
+                    <a href="#" class="nav-link dropdown-toggle" role="button" id="drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Experience
                     </a>
                     <div class="dropdown-menu" aria-labelledby="drop1">
-                        <a href="" class="dropdown-item">Action 1</a>
-                        <a href="" class="dropdown-item">Action 2</a>
+                        <a href="#" class="dropdown-item">Educational</a>
+                        <a href="#" class="dropdown-item">Work Related</a>
                         <div class="dropdown-divider"></div>
-                        <a href="" class="dropdown-item">Action 3</a>
+                        <a href="#" class="dropdown-item">Programming Related</a>
                     </div>
                 </li>
-                <li class="nav-item"><a href="" class="nav-link disabled">disabled</a></li>
+
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                
+                <li class="nav-item"><a href="#" class="nav-link disabled">Gallery</a></li>
+        
             </ul>
+            <!-- search -->
+            <form class="form-inline my-2 my-lg-0">
+                <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
 
