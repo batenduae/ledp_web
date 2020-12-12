@@ -55,7 +55,7 @@ body{
 }
 
 #booking-head-section{
-    background: url("../img/booking.jpg") no-repeat center;
+    background: url("../img/booking1.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -64,4 +64,9 @@ body{
     background: rgba(0, 0, 0, 0.65);
 }
 
-
+.icon-s3{
+    padding: 4px;
+    font-size: 30px;
+    background: hotpink;
+    border-radius: 5px;
+}
