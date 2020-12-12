@@ -1,0 +1,67 @@
+body{
+    background: #333333;
+    color: #fff;
+    transition: 1000;
+}
+.navbar{
+    background: #2d2e2e;
+    opacity: 0.7;
+    border-bottom: 2px solid #1073a5;
+}
+
+#home-section{
+    background: url(../img/home.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+#home-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.65);
+    
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.icon-s1{
+    align-self: center;
+    padding: 4px;
+    background: #fff;
+    color: #008ed6;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.icon-s2{
+    align-self: center;
+    padding: 4px;
+    background: #333333;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#explore-head-section{
+    background: url("../img/explore.jpg") no-repeat center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+#explore-head-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.65);
+}
+
+#booking-head-section{
+    background: url("../img/booking.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#booking-head-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.65);
+}
+
+
