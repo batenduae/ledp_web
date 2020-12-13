@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>jQuery AnchorScroll Smooth Scroll Example</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="./js/jquery-anchorScroll.js"></script>
+  <script>
+
+    $(function () {
+      var anchorScroll = $(document).AnchorScroll({
+        'center': 1,
+      });
+      anchorScroll.on('scrollStart', function (event) {
+        var target = event.target,
+          settings = event.settings;
+
+        console.log('Start');
+        if( $(window).width() < 768 ) {
+          settings.center = 0;
+        }
+
+      });
+      anchorScroll.on('scrollEnd', function (event) {
+        var target = event.target;
+
+        console.log('End');
+      });
+    });
+
+  </script>
+
+</head>
+
+<body class="wrap">
+
+  <header>
+    <nav class="gNavi">
+      <ul>
+        <li>
+          <a href="#section01">Section01</a>
+        </li>
+        <li>
+          <a href="#section02">Section02</a>
+        </li>
+        <li>
+          <a href="#section03">Section03</a>
+        </li>
+        <li>
+          <a href="#section04">Section04</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section01" class="section section-01">
+      <div class="section_inner">
+        <h1>jQuery AnchorScroll Smooth Scroll Example</h1>
+        <div id="carbon-block" style="margin:30px auto" align="center"></div>
+<div style="margin:30px auto" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+        <p>An alternative to the CSS scroll-behavior: smooth property that applies a smooth scroll effect with configurable speed, easing, and offset to anchor links within the document.</p>
+        <p>
+          Curabitur vitae turpis ut mi consectetur viverra. Ut dignissim urna at metus rhoncus consectetur at eu diam. Nulla ullamcorper lorem odio, id iaculis purus vehicula non. In fermentum purus libero, eu porta lorem tempor nec. Nunc congue felis et auctor sagittis. Sed efficitur pulvinar arcu, ac consectetur urna condimentum nec. Fusce tortor ante, efficitur eget placerat in, tincidunt eget ipsum. Proin consequat quis metus vitae volutpat. Etiam volutpat consequat ligula eu blandit. Donec ullamcorper nisl a ornare vestibulum. Praesent luctus dolor a ligula varius, quis consectetur sem commodo. Fusce vel convallis velit. Vestibulum sed convallis ligula, a faucibus velit. Nulla volutpat vel lectus non aliquam. Proin laoreet feugiat leo non cursus. Duis non dignissim neque.
+        </p>
+        <p>Donec tincidunt, mi at malesuada mattis, leo sapien imperdiet est, ac iaculis ante dolor vel leo. </p>
+        <p> Curabitur dignissim, ligula in vestibulum posuere, nunc ex varius lacus, in ornare enim magna quis mauris.</p>
+        <p>
+          Aliquam erat volutpat. Nam eu auctor lacus, ac sodales mauris. Sed id risus facilisis, semper eros non, viverra ex. Phasellus tincidunt purus non turpis ullamcorper, a accumsan ligula accumsan. Aenean odio nisi, commodo quis tellus at, scelerisque commodo urna. Fusce fermentum ultricies mauris a fringilla. Aliquam vestibulum scelerisque nisi nec finibus.
+        </p>
+      </div>
+    </section>
+    <section id="section02" class="section section-02" data-offset="-120">
+      <div class="section_inner">
+        <h1>Section 02</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum volutpat posuere. Fusce vel tristique tortor. Quisque eleifend finibus magna rutrum euismod. Duis consectetur varius pellentesque. Proin condimentum ornare justo, eget pellentesque augue sollicitudin eget. Fusce hendrerit finibus hendrerit. Duis venenatis elit in libero venenatis eleifend. Pellentesque id felis urna. Nullam dictum ultrices sodales.</p>
+        <p>
+          Curabitur vitae turpis ut mi consectetur viverra. Ut dignissim urna at metus rhoncus consectetur at eu diam. Nulla ullamcorper lorem odio, id iaculis purus vehicula non. In fermentum purus libero, eu porta lorem tempor nec. Nunc congue felis et auctor sagittis. Sed efficitur pulvinar arcu, ac consectetur urna condimentum nec. Fusce tortor ante, efficitur eget placerat in, tincidunt eget ipsum. Proin consequat quis metus vitae volutpat. Etiam volutpat consequat ligula eu blandit. Donec ullamcorper nisl a ornare vestibulum. Praesent luctus dolor a ligula varius, quis consectetur sem commodo. Fusce vel convallis velit. Vestibulum sed convallis ligula, a faucibus velit. Nulla volutpat vel lectus non aliquam. Proin laoreet feugiat leo non cursus. Duis non dignissim neque.
+        </p>
+        <p>Donec tincidunt, mi at malesuada mattis, leo sapien imperdiet est, ac iaculis ante dolor vel leo. </p>
+        <p> Curabitur dignissim, ligula in vestibulum posuere, nunc ex varius lacus, in ornare enim magna quis mauris.</p>
+        <p>
+          Aliquam erat volutpat. Nam eu auctor lacus, ac sodales mauris. Sed id risus facilisis, semper eros non, viverra ex. Phasellus tincidunt purus non turpis ullamcorper, a accumsan ligula accumsan. Aenean odio nisi, commodo quis tellus at, scelerisque commodo urna. Fusce fermentum ultricies mauris a fringilla. Aliquam vestibulum scelerisque nisi nec finibus.
+        </p>
+      </div>
+    </section>
+    <section id="section03" class="section section-03" data-center="1">
+      <div class="section_inner">
+        <h1>Section 03</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum volutpat posuere. Fusce vel tristique tortor. Quisque eleifend finibus magna rutrum euismod. Duis consectetur varius pellentesque. Proin condimentum ornare justo, eget pellentesque augue sollicitudin eget. Fusce hendrerit finibus hendrerit. Duis venenatis elit in libero venenatis eleifend. Pellentesque id felis urna. Nullam dictum ultrices sodales.</p>
+        <p>
+          Curabitur vitae turpis ut mi consectetur viverra. Ut dignissim urna at metus rhoncus consectetur at eu diam. Nulla ullamcorper lorem odio, id iaculis purus vehicula non. In fermentum purus libero, eu porta lorem tempor nec. Nunc congue felis et auctor sagittis. Sed efficitur pulvinar arcu, ac consectetur urna condimentum nec. Fusce tortor ante, efficitur eget placerat in, tincidunt eget ipsum. Proin consequat quis metus vitae volutpat. Etiam volutpat consequat ligula eu blandit. Donec ullamcorper nisl a ornare vestibulum. Praesent luctus dolor a ligula varius, quis consectetur sem commodo. Fusce vel convallis velit. Vestibulum sed convallis ligula, a faucibus velit. Nulla volutpat vel lectus non aliquam. Proin laoreet feugiat leo non cursus. Duis non dignissim neque.
+        </p>
+        <p>Donec tincidunt, mi at malesuada mattis, leo sapien imperdiet est, ac iaculis ante dolor vel leo. </p>
+        <p> Curabitur dignissim, ligula in vestibulum posuere, nunc ex varius lacus, in ornare enim magna quis mauris.</p>
+        <p>
+          Aliquam erat volutpat. Nam eu auctor lacus, ac sodales mauris. Sed id risus facilisis, semper eros non, viverra ex. Phasellus tincidunt purus non turpis ullamcorper, a accumsan ligula accumsan. Aenean odio nisi, commodo quis tellus at, scelerisque commodo urna. Fusce fermentum ultricies mauris a fringilla. Aliquam vestibulum scelerisque nisi nec finibus.
+        </p>
+      </div>
+    </section>
+    <section id="section04" class="section section-04">
+      <div class="section_inner">
+        <h1>Section 04</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum volutpat posuere. Fusce vel tristique tortor. Quisque eleifend finibus magna rutrum euismod. Duis consectetur varius pellentesque. Proin condimentum ornare justo, eget pellentesque augue sollicitudin eget. Fusce hendrerit finibus hendrerit. Duis venenatis elit in libero venenatis eleifend. Pellentesque id felis urna. Nullam dictum ultrices sodales.</p>
+        <p>
+          Curabitur vitae turpis ut mi consectetur viverra. Ut dignissim urna at metus rhoncus consectetur at eu diam. Nulla ullamcorper lorem odio, id iaculis purus vehicula non. In fermentum purus libero, eu porta lorem tempor nec. Nunc congue felis et auctor sagittis. Sed efficitur pulvinar arcu, ac consectetur urna condimentum nec. Fusce tortor ante, efficitur eget placerat in, tincidunt eget ipsum. Proin consequat quis metus vitae volutpat. Etiam volutpat consequat ligula eu blandit. Donec ullamcorper nisl a ornare vestibulum. Praesent luctus dolor a ligula varius, quis consectetur sem commodo. Fusce vel convallis velit. Vestibulum sed convallis ligula, a faucibus velit. Nulla volutpat vel lectus non aliquam. Proin laoreet feugiat leo non cursus. Duis non dignissim neque.
+        </p>
+        <p>Donec tincidunt, mi at malesuada mattis, leo sapien imperdiet est, ac iaculis ante dolor vel leo. </p>
+        <p> Curabitur dignissim, ligula in vestibulum posuere, nunc ex varius lacus, in ornare enim magna quis mauris.</p>
+        <p>
+          Aliquam erat volutpat. Nam eu auctor lacus, ac sodales mauris. Sed id risus facilisis, semper eros non, viverra ex. Phasellus tincidunt purus non turpis ullamcorper, a accumsan ligula accumsan. Aenean odio nisi, commodo quis tellus at, scelerisque commodo urna. Fusce fermentum ultricies mauris a fringilla. Aliquam vestibulum scelerisque nisi nec finibus.
+        </p>
+      </div>
+    </section>
+  </main>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+</body>
+
+</html>
