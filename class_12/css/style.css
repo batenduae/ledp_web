@@ -70,3 +70,39 @@ body{
     background: hotpink;
     border-radius: 50%;
 }
+
+#booking-body-section{
+    background: url("../img/fishing.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#share-head-section{
+    background: url("../img/teknaf.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#share-head-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.icon-s4{
+    padding: 4px;
+    font-size: 30px;
+    background: tomato;
+    border-radius: 5px;
+}
+
+#share-body-section{
+    background: url("../img/hatrjheel.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#share-body-section .dark-overlay{
+    background: rgba(0, 0, 10, 0.5);
+}
+
+.footer-text{
+    font-size: 30px;
+}
